@@ -31,7 +31,7 @@ const petsData = [
     }
 ];
 
-let userInput = document.getElementById('petNum');
+let userInput = document.querySelector('petNum');
 
 function showInfo() {
     if(parseInt(userInput.value) > 0 && parseInt(userInput.value) < petsData.length)
